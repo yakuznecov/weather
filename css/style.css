@@ -1,0 +1,213 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	min-width: 320px;
+}
+body {
+	font-family: 'Roboto';
+	text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	color: #fff;
+}
+input,
+button,
+textarea {
+	font-family: 'Roboto';
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+	background: transparent;
+	outline: none;
+	font: inherit;
+	color: inherit;
+	-webkit-appearance: none !important;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+	-webkit-appearance: none !important;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html[data-theme='day'] .weather,
+.weather {
+	background: linear-gradient(360deg, #3594bf 0%, rgba(255, 255, 255, 0) 100%), #53a6cb;
+}
+
+html[data-theme='day'] .weather,
+.weather {
+	background: linear-gradient(360deg, #55707e 0%, rgba(255, 255, 255, 0) 100%), #042232;
+}
+
+.weather {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.weather__inner {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.current {
+	text-align: center;
+	margin-bottom: 54px;
+}
+
+.current__city {
+	font-size: 48px;
+}
+
+.current__description {
+	font-size: 24px;
+}
+
+.current_temperature {
+	font-size: 54px;
+}
+
+.forecast {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 54px;
+}
+
+.forecast__item {
+	text-align: center;
+}
+
+.forecast__time,
+.forecast__icon {
+	margin-bottom: 16px;
+}
+
+.forecast__icon {
+	width: 50px;
+	height: 50px;
+}
+
+.forecast__temperature {
+	font-size: 24px;
+}
+
+.details__row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+}
+
+.details__item {
+	flex: 1;
+}
+
+.details__name {
+	margin-bottom: 16px;
+}
+
+.details__value {
+	font-size: 24px;
+}
+
+html.transition,
+html.transition * {
+	transition: all 0.2s;
+	transition-delay: 0;
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.icon-6,
+.icon-7,
+.icon-8 {
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+
+.icon-1 {
+	background-image: url('../images/icon-1.png');
+}
+
+.icon-2 {
+	background-image: url('../images/icon-2.png');
+}
+
+.icon-3 {
+	background-image: url('../images/icon-3.png');
+}
+
+.icon-4 {
+	background-image: url('../images/icon-4.png');
+}
+
+.icon-5 {
+	background-image: url('../images/icon-5.png');
+}
+
+.icon-6 {
+	background-image: url('../images/icon-6.png');
+}
+
+.icon-7 {
+	background-image: url('../images/icon-7.png');
+}
+
+.icon-8 {
+	background-image: url('../images/icon-8.png');
+}
